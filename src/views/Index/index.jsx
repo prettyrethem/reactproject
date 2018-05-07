@@ -6,7 +6,7 @@ import {NavLink} from 'react-router-dom'
 class Index extends Component
 {
     render() {
-        let { routes } = this.props
+        let {routes} = this.props
         return (
             <div id="index">
                 <div className="content">

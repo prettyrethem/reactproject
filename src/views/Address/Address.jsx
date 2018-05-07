@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Address.css'
 import provinceCity from '../../../mock/data/provinceCity.js'
-console.log(provinceCity)
 class Address extends Component
 {
   constructor()

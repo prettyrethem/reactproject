@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './City.css'
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
 import axios from 'axios'
 
 class City extends Component
@@ -72,8 +72,8 @@ class City extends Component
     axios.get('/city').then((res) =>
     {
       dispatch({
-        type: "HELLO_CITY",
-        data: res.data
+        type:"HELLO_CITY",
+        data:res.data
       })
     })
   }
@@ -89,7 +89,7 @@ class City extends Component
     }
     else
     {
-      e.target.className='bg'
+      e.target.className='bgs'
     }
   }
   eliminate(params)
