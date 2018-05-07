@@ -1,0 +1,28 @@
+#index{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+	flex-direction: column;
+}
+.content{
+    width: 100%;
+    flex: 1;
+    overflow-y: scroll;
+}
+.footer{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+}
+.footer span{
+    display: block;
+}
+.bg{
+    color: blue;
+}

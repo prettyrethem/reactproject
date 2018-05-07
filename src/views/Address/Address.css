@@ -1,0 +1,38 @@
+#address
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+#address .section
+{
+    flex: 1;
+    display: flex;
+}
+.left
+{
+    width: 27%;
+    overflow-y: scroll;
+}
+.middle
+{
+    flex: 1;
+    overflow-y: scroll;
+    text-align: center;
+}
+.right
+{
+    width: 10%;
+    overflow-y: scroll;
+}
+.right p
+{
+    margin-bottom: 30px;
+}
+.bgg
+{
+    color: yellow;
+}
